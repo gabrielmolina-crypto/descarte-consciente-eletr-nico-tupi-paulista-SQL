@@ -1,0 +1,161 @@
+/* ESTILO DE GERAL */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    .poppins-thin {
+  font-family: "preconnect", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+
+}
+body{
+    background-color: rgb(14, 24, 54);
+    height: 10px;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+h2.titulo{
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #59ff4a;
+}
+
+/* ESTILO DE CABEÇARIO */
+header{
+    padding: 30px 0 ;
+}
+ header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ 
+img{
+    width: 300px;
+}
+header a{ 
+    color: rgb(92, 92, 92);
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    transition: .2s;
+    
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.09);
+}
+header nav ul{ 
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 40px 20px ;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #329e28;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #3ae70e;
+    transition: 0.2s;
+}
+/* ESTILO' DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px ;    
+}
+.topo-do-site h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 45px;
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: #59ff4a;
+    font-size: 60px;
+}
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 20px 20px;
+    font-size: 22px;
+}
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 50 px;
+    }
+}
+/*ESTILO DO PONTO DE COLETA */
+section .pontos-de-coleta{
+    padding: 4px 4%;
+}
+section .pontos-de-coleta .flex{
+    gap: 60px ;
+}
+.pontos-de-coleta .pontos-de-coleta-box{ 
+    color: #fff;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.pontos-de-coleta .pontos-de-coleta-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #fff;
+}
+.pontos-de-coleta .pontos-de-coleta-box h3{
+   font-size: 28px;
+   margin: 15px 0;
+   text-align: center;
+}
+.pontos-de-coleta .pontos-de-coleta-box p{
+    font-size: 25px;
+}
+.pontos-de-coleta h3 span{
+    color: #59ff4a;
+}
+
+@media screen and (max-width: 1020px) {
+    /* classes gerais */
+    .flex{
+        flex-direction: column;
+    }
+    /* cabeçario */
+    .menu-desktop,.btn-contato{
+        display: none;
+    }
+   
+    }
+}
