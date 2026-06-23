@@ -1,0 +1,1 @@
+# descarte-consciente-eletr-nico-tupi-paulista-SQL
